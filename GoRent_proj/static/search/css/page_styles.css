@@ -1,0 +1,28 @@
+.gorent-top-navbar {
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+
+.top-navbar-left_group {
+    padding: 0vw 1vw;
+
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.container-topnav_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: purple;
+}
+
+.container-topnav_buttons > a {
+    padding: 1.7vw;
+}
+
