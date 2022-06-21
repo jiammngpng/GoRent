@@ -381,6 +381,22 @@
                 </script>
                 
                 
+                <div class="map-sidepanel-left">
+                    <h4><center>Register Space</center></h4>
+                    <button class="btn btn-sub" id="button-manual_locate" onclick="toggleMapLocate()">Pick Location on Map</button>
+                    <button class="btn btn-sub" id="button-auto_locate"  onclick="getLocation()">Enable Location</button>
+                    
+                    <br>
+                    <div class="subtext" id="location"></div>
+                    <div class="subtext" id="longitude"></div>
+                    <div class="subtext" id="latitude"></div>
+                    <br>
+                    <input name="price" type="number" class="form-control" id="price" placeholder="Price" style="height: 8%;">
+                    <br>
+                    Upload images<input type="file" id="spaceImage" name="spaceImage" accept="image/png, image/jpeg" placeholder="Upload image">
+                        <br>
+                        <button id="getData" type="submit" class="btn btn-primary tm-btn-search">Submit</button>
+                </div>
                 {% endif %}
 
                 <!-- NEARBY LIST BLOCK -->
